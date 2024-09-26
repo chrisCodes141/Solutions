@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("How many numbers into the list?");
+        System.out.println("\nHow many numbers into the list?");
         int amtNum = sc.nextInt();
         int[] arr = new int[amtNum];
         for(int i = 1; i < amtNum+1; i++){
